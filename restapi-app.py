@@ -150,7 +150,7 @@ def processSlackRequest():
     print(response_url)
     print("========")
     print(query_str)
-    res=requests.get('http://45.62.252.151:8080/api/search/slack/all/'+query_str)
+    res=requests.get('http://xx:8080/api/search/slack/all/'+query_str)
     print(res.json())
     #attachmentText = "Finding information for *" + query_str+"*"
     attachments = ''
